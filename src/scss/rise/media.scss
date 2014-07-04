@@ -1,0 +1,21 @@
+
+/* Media queries
+   ========================================================================== */
+@media (min-width: 768px) {
+  .navbar-right .sign-in,
+  .modal-dialog .sign-in {
+    padding: 3px 10px;	/* TODO: Make this a variable. */
+  }
+
+  .stripe { margin-bottom: 0; }
+}
+
+/* ==========================================================================
+   Print Media Queries
+   ========================================================================== */
+@media print {
+  /* Remove header when printing. */
+  .navbar {
+    display: none;
+  }
+}
